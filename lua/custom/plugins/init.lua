@@ -2,4 +2,10 @@
 --  I promise not to create any merge conflicts in this directory :)
 --
 -- See the kickstart.nvim README for more information
+
+-- Import custom plugins
+require 'custom.plugins.snacks'
+require 'custom.plugins.telescope'
+require 'custom.plugins.opencode'
+
 return {}
